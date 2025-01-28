@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume-website';
+  isDarkTheme = false;
+
+  toggleTheme() {
+    this.isDarkTheme = !this.isDarkTheme;
+    const themeClass = this.isDarkTheme ? 'dark-theme' : 'light-theme';
+    document.body.className = themeClass;
+  }
 }
+
+
