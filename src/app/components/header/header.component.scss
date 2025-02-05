@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* Pushes content to both ends */
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;  /* Space between buttons */
+}
+
+.nav-links button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.nav-links button:hover {
+    background: white;
+    color: #333;
+}

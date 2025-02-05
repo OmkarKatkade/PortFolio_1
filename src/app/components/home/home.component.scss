@@ -1,0 +1,43 @@
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ff5722;
+}
+
+.intro {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.tech-stack {
+    margin-top: 20px;
+}
+
+.stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.stack-list span {
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}

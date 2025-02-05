@@ -7,6 +7,8 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     AppComponent,
     SidebarComponent,       // Declare SidebarComponent
     ExperienceComponent,    // Declare ExperienceComponent
-    ProjectsComponent 
+    ProjectsComponent,
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserAnimationsModule,
